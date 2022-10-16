@@ -1,0 +1,10 @@
+import '@polkadot/api-augment';
+export { Web3GamesApi } from './Web3GamesApi';
+export { Web3GamesKeyring } from './Keyring';
+export { Web3GamesBalance } from './Balance';
+export { Web3GamesBlock } from './Blocks';
+export * from './Transaction';
+export * from './create-type';
+export * from './types/interfaces';
+export * from './utils';
+export * from './types';
